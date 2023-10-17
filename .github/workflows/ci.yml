@@ -29,4 +29,4 @@ jobs:
         with:
           # token: ${{ secrets.TEST_COV_TOKEN }}
           files: ./coverage.xml
-          verbose: true
+          verbose: true 
