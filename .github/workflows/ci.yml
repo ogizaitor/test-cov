@@ -30,3 +30,6 @@ jobs:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage.xml
           verbose: true
+      - name: composer update action
+        uses: kawax/composer-update-action@v4.0.0
+            
