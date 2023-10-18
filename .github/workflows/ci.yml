@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install composer and dependencies
-        uses: php-actions/composer@v6
+        uses: php-actions/composer@v4
 
       - name: PHPUnit Tests
         uses: php-actions/phpunit@v3
@@ -31,5 +31,5 @@ jobs:
           files: ./coverage.xml
           verbose: true
       - name: composer update action
-        uses: kawax/composer-update-action@v2.0.0
+        uses: kawax/composer-update-action@v4.0.0
             
